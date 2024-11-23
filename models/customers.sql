@@ -29,4 +29,4 @@ co.customer_id,co.first_name,co.last_name,co.first_order
 from customer_orders co
 left join
 customer_payments cp
-on co.customer_id = cp.customer_id;
+on co.customer_id = cp.customer_id
