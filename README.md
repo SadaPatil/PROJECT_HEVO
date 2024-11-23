@@ -1,8 +1,8 @@
 # PROJECT_HEVO
-Create new Account in DBT
-It will redirect to Complete project setup
-In the Connection drop down, click on add new connection
-	- It will redirect to new webpage for setting up connection
+Create new Account in DBT  
+It will redirect to Complete project setup  
+In the Connection drop down, click on add new connection  
+	- It will redirect to new webpage for setting up connection  
 	- select Snowflake from options
 	- provide connection name
 	- dbt Cloud will always access your connection from 52.3.77.232, 3.214.191.130, or 34.233.79.135. Make sure to allow inbound traffic from these IPs in your firewall, and include it in any database grants.
