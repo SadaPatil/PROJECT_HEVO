@@ -1,0 +1,19 @@
+version: 2
+
+models:
+  - name: customers
+    description: "Customer model containing basic information about customers"
+    columns:
+      - name: customer_id
+        description: "Unique identifier for the customer"
+        tests:
+          - unique
+          - not_null
+      - name: first_name
+        description: "customer's first name"
+        tests:
+          - not_null
+      - name: last_name
+        description: "customer's last name"
+        tests:
+          - not_null
