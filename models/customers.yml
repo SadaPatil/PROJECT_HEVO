@@ -4,7 +4,7 @@ models:
   - name: customers
     description: "Customer model containing basic information about customers"
     columns:
-      - name: customer_id
+      - name: id
         description: "Unique identifier for the customer"
         tests:
           - unique
